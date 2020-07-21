@@ -4,7 +4,7 @@ import './App.css';
 
 API = process.env.REACT_APP_TOML_ENV_VAR_GAB;
 
-console.log(`netlify-cra-env-vars v${process.env.REACT_APP_VERSION}`)
+console.log(API);
 
 class App extends Component {
   render() {
