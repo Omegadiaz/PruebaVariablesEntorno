@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import logo from './logo.svg';
 import './App.css';
 
-API = process.env.REACT_APP_TOML_ENV_VAR_GAB;
+const API = process.env.REACT_APP_TOML_ENV_VAR_GAB;
 
 console.log(API);
 
