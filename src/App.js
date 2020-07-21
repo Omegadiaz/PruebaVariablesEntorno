@@ -19,7 +19,7 @@ class App extends Component {
         <p>CUSTOM_ENV_VAR value is "{process.env.CUSTOM_ENV_VAR}"</p>
         <p>REACT_APP_CUSTOM_ENV_VAR value is "{process.env.REACT_APP_CUSTOM_ENV_VAR}"</p>
         <p>TOML_ENV_VAR value is "{process.env.TOML_ENV_VAR}"</p>
-        
+        <p>REACT_APP_TOML_ENV_VAR value is "{process.env.REACT_APP_TOML_ENV_VAR}"</p>
       </div>
     );
   }
