@@ -4,7 +4,7 @@ import './App.css';
 
 const API = process.env.REACT_APP_TOML_ENV_VAR_GAB;
 
-console.log(API);
+//console.log(API);
 
 class App extends Component {
   render() {
