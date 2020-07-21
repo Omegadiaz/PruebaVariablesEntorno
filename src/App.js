@@ -2,6 +2,8 @@ import React, { Component } from 'react';
 import logo from './logo.svg';
 import './App.css';
 
+API = process.env.REACT_APP_TOML_ENV_VAR_GAB;
+
 console.log(`netlify-cra-env-vars v${process.env.REACT_APP_VERSION}`)
 
 class App extends Component {
@@ -20,7 +22,7 @@ class App extends Component {
         <p>REACT_APP_CUSTOM_ENV_VAR value is "{process.env.REACT_APP_CUSTOM_ENV_VAR}"</p>
         <p>TOML_ENV_VAR value is "{process.env.TOML_ENV_VAR}"</p>
         <p>REACT_APP_TOML_ENV_VAR value is "{process.env.REACT_APP_TOML_ENV_VAR}"</p>
-        <p>REACT_APP_TOML_ENV_VAR_GAB value is "{process.env.REACT_APP_TOML_ENV_VAR_GAB}"</p>
+        
       </div>
     );
   }
