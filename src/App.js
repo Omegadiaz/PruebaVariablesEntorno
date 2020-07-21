@@ -4,8 +4,8 @@ import './App.css';
 
 const API = process.env.REACT_APP_TOML_ENV_VAR_GAB;
 
-const llamarAGoogle = API => null;
-llamarAGoogle();
+const llamarAGoogle = () => null;
+llamarAGoogle(API);
 
 class App extends Component {
   render() {
