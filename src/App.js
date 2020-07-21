@@ -1,10 +1,10 @@
-import React, { Component } from 'react';
+import React, { Component, useState } from 'react';
 import logo from './logo.svg';
 import './App.css';
 
 const API = process.env.REACT_APP_TOML_ENV_VAR_GAB;
 
-//console.log(API);
+const llamarAGoogle = API => null;
 
 class App extends Component {
   render() {
